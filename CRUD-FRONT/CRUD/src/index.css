@@ -1,0 +1,15 @@
+.container{
+  text-align: center;
+}
+.form-usuarios{
+  text-align: start;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.form-usuarios legend{
+ text-align: center;
+}
+.modaltrue{
+  display: flex;
+  background-color: rgba(46, 48, 48, 0.534);
+}
