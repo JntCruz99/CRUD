@@ -19,3 +19,11 @@ jobs:
         
       - name: Build project
         run: cd CRUD-BACK && mvn clean install -DskipTests
+      
+      - name: Login Docker Hub
+        run: docker login -u jntcruz -p jonatas123
+
+      - name: Build docker image
+        run: docker build -t jntcruz/javadb .
+      - name: Push image docker
+        run: docker push jntcruz/javadb
