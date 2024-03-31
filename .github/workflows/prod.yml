@@ -1,4 +1,4 @@
-name: Deploy projeto CRUD
+name: test
 
 on:
   push:
