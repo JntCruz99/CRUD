@@ -16,3 +16,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
+        
+      - name: Build project
+        run: mvn clean install -DskipTests
